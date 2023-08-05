@@ -13,7 +13,7 @@ while (isNaN(largura) || largura <== 0) {
 }
 
 console.log(`A área do retângulo é ${altura * largura}.`);
-*/
+
 //Questão 02
 
 let numero = Number(prompt("Digite um número:"));
@@ -26,4 +26,15 @@ if (numero % 2 === 0) {
   console.log("O número digitado é par.");
 } else {
   console.log("O número digitado é ímpar.");
+}
+*/
+//Questão 03
+
+let frase = prompt("Digite uma frase:");
+let fraseMinusla = frase.toLowerCase();
+
+if (fraseMinusla.includes("javascript")) {
+  console.log("Sua frase contém JavaScript!");
+} else {
+  console.log("Que pena, sua frase não contém o que buscávamos.");
 }
