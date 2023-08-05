@@ -27,7 +27,7 @@ if (numero % 2 === 0) {
 } else {
   console.log("O número digitado é ímpar.");
 }
-*/
+
 //Questão 03
 
 let frase = prompt("Digite uma frase:");
@@ -37,4 +37,18 @@ if (fraseMinusla.includes("javascript")) {
   console.log("Sua frase contém JavaScript!");
 } else {
   console.log("Que pena, sua frase não contém o que buscávamos.");
+}
+*/
+//Questão 04
+
+let frase1 = prompt("Digite uma frase:");
+let frase2 = prompt("Digite outra frase:");
+
+fraseMinuscula1 = frase1.toLowerCase();
+fraseMinuscula2 = frase2.toLowerCase();
+
+if (fraseMinuscula1 === fraseMinuscula2) {
+  console.log("As frases são iguais!");
+} else {
+  console.log("As frases são diferentes.");
 }
