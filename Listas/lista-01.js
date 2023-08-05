@@ -38,17 +38,49 @@ if (fraseMinusla.includes("javascript")) {
 } else {
   console.log("Que pena, sua frase não contém o que buscávamos.");
 }
-*/
+
 //Questão 04
 
 let frase1 = prompt("Digite uma frase:");
 let frase2 = prompt("Digite outra frase:");
 
-fraseMinuscula1 = frase1.toLowerCase();
-fraseMinuscula2 = frase2.toLowerCase();
+let fraseMinuscula1 = frase1.toLowerCase();
+let fraseMinuscula2 = frase2.toLowerCase();
 
 if (fraseMinuscula1 === fraseMinuscula2) {
   console.log("As frases são iguais!");
 } else {
   console.log("As frases são diferentes.");
 }
+*/
+//Questão 05
+
+let lista1 = [];
+let lista2 = [];
+
+let item1 = prompt("Digite qualquer coisa (1/6):");
+lista1.push(item1);
+let item2 = prompt("Digite qualquer coisa (2/6):");
+lista1.push(item2);
+let item3 = prompt("Digite qualquer coisa (3/6):");
+lista1.push(item3);
+let item4 = prompt("Digite qualquer coisa (4/6):");
+lista1.push(item4);
+let item5 = prompt("Digite qualquer coisa (5/6):");
+lista2.push(item5);
+let item6 = prompt("Digite qualquer coisa (6/6):");
+lista2.push(item6);
+
+console.log(lista1);
+console.log(lista2);
+
+function juntaListas(primeiraLista, segundaLista) {
+  for (i = 0; i < segundaLista.length; i++) {
+    primeiraLista.push(segundaLista[i]);
+  }
+  return primeiraLista;
+}
+
+let listasJuntas = juntaListas(lista1, lista2);
+
+console.log(listasJuntas);
