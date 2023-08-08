@@ -84,7 +84,7 @@ function juntaListas(primeiraLista, segundaLista) {
 let listasJuntas = juntaListas(lista1, lista2);
 
 console.log(listasJuntas);
-*/
+
 // questão 06
 
 let numeros = [1, 2, 3, 4, 5];
@@ -92,3 +92,22 @@ let numeros = [1, 2, 3, 4, 5];
 let somaNumeros = numeros.reduce((numero, soma) => soma + numero, 0);
 
 console.log(`A média é ${somaNumeros / numeros.length}.`);
+*/
+//Questão 07
+
+const dataHoraAtual = new Date();
+
+function transformaData(data) {
+  let dia = data.getDate();
+  let mes = data.getMonth() + 1;
+  let ano = data.getFullYear();
+  let horas = data.getHours();
+  let minutos = data.getMinutes();
+  let segundos = data.getSeconds();
+
+  return `${dia}/${mes}/${ano} ${horas}:${minutos}:${segundos}`;
+}
+
+dataHoraTransformada = transformaData(dataHoraAtual);
+
+console.log(dataHoraTransformada);
