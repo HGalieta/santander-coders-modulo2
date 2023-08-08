@@ -111,9 +111,17 @@ function transformaData(data) {
 dataHoraTransformada = transformaData(dataHoraAtual);
 
 console.log(dataHoraTransformada);
-*/
+
 //Questão 08
 
 let numeros = [1, 2, 3, 4, 9, 5, 6];
 
 console.log(Math.max(...numeros));
+*/
+//Questão 09
+
+function geraNumeroAleatorio(a, b) {
+  return Math.floor(Math.random() * b) + 1 + a;
+}
+
+console.log(geraNumeroAleatorio(1, 10));
