@@ -117,7 +117,7 @@ console.log(dataHoraTransformada);
 let numeros = [1, 2, 3, 4, 9, 5, 6];
 
 console.log(Math.max(...numeros));
-*/
+
 //Questão 09
 
 function geraNumeroAleatorio(a, b) {
@@ -125,3 +125,24 @@ function geraNumeroAleatorio(a, b) {
 }
 
 console.log(geraNumeroAleatorio(1, 10));
+*/
+//Questão 10
+
+let numeroDigitado = Number(prompt("Digite um número:"));
+
+function verificaPrimo(numero) {
+  let primo = true;
+  for (let i = 2; i < numero / 2; i++) {
+    if (numero % i === 0) {
+      primo = false;
+    }
+  }
+
+  if (primo) {
+    console.log("O número digitado é primo!");
+  } else {
+    console.log("O número digitado não é primo.");
+  }
+}
+
+verificaPrimo(numeroDigitado);
