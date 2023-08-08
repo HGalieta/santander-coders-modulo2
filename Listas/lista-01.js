@@ -92,7 +92,7 @@ let numeros = [1, 2, 3, 4, 5];
 let somaNumeros = numeros.reduce((numero, soma) => soma + numero, 0);
 
 console.log(`A média é ${somaNumeros / numeros.length}.`);
-*/
+
 //Questão 07
 
 const dataHoraAtual = new Date();
@@ -111,3 +111,9 @@ function transformaData(data) {
 dataHoraTransformada = transformaData(dataHoraAtual);
 
 console.log(dataHoraTransformada);
+*/
+//Questão 08
+
+let numeros = [1, 2, 3, 4, 9, 5, 6];
+
+console.log(Math.max(...numeros));
