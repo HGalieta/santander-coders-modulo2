@@ -52,7 +52,7 @@ if (fraseMinuscula1 === fraseMinuscula2) {
 } else {
   console.log("As frases são diferentes.");
 }
-*/
+
 //Questão 05
 
 let lista1 = [];
@@ -84,3 +84,11 @@ function juntaListas(primeiraLista, segundaLista) {
 let listasJuntas = juntaListas(lista1, lista2);
 
 console.log(listasJuntas);
+*/
+// questão 06
+
+let numeros = [1, 2, 3, 4, 5];
+
+let somaNumeros = numeros.reduce((numero, soma) => soma + numero, 0);
+
+console.log(`A média é ${somaNumeros / numeros.length}.`);
