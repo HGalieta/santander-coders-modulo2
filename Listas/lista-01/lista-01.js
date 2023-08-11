@@ -169,10 +169,25 @@ console.log(soma, typeof soma);
 
 //Questão 14
 //o operador de soma é também utilizado como operador de concatenação e, neste caso, ocorre a conversão do número para string.
-*/
+
 //Questão 15
 
 let nula = null;
 let indefinida = undefined;
 
 console.log(nula === indefinida);
+*/
+//Questão 16
+
+function verificaVariavel(variavel) {
+  if (typeof variavel === "function") {
+    console.log("A variável é uma função.");
+  } else {
+    console.log("A variável não é uma função.");
+  }
+}
+
+let numero = 10;
+
+verificaVariavel(verificaVariavel);
+verificaVariavel(numero);
