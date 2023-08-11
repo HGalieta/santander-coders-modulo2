@@ -146,7 +146,7 @@ function verificaPrimo(numero) {
 }
 
 verificaPrimo(numeroDigitado);
-*/
+
 //Questão 11
 
 let string5 = "5";
@@ -155,3 +155,10 @@ let numero2 = 2;
 let multiplicacao = string5 * numero2;
 console.log(multiplicacao, typeof multiplicacao);
 // ao multiplicar uma string por um número, por se tratar de uma operação exclusivamente matemática, o JS faz a conversão da string para número
+
+*/
+//Questão 12
+
+let numero = Number("123");
+
+console.log(numero);
