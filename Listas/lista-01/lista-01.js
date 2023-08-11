@@ -227,7 +227,7 @@ function verificaBissexto(ano) {
 }
 
 verificaBissexto(1600);
-*/
+
 //Questão 21
 
 function verificaAcesso(pessoa) {
@@ -245,3 +245,21 @@ let pessoa1 = {
 };
 
 verificaAcesso(pessoa1);
+
+//Questão 22
+
+let usuario = {
+  nome: "Juca",
+  login: "user",
+  senha: "123",
+};
+
+let loginDigitado = prompt("Digite seu login:");
+let senhaDigitada = prompt("Digite sua senha:");
+
+if (loginDigitado === usuario.login && senhaDigitada === usuario.senha) {
+  alert(`Olá, ${usuario.nome}. Seja bem vindo(a)!`);
+} else {
+  alert("Login ou senha inválidos.");
+}
+*/
