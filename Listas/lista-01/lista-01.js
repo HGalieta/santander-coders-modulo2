@@ -161,9 +161,11 @@ console.log(multiplicacao, typeof multiplicacao);
 let numero = Number("123");
 
 console.log(numero);
-*/
+
 //Questão 13
 
 let soma = 12 + "numero";
 console.log(soma, typeof soma);
+*/
+//Questão 14
 //o operador de soma é também utilizado como operador de concatenação e, neste caso, ocorre a conversão do número para string.
