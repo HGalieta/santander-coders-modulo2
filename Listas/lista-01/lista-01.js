@@ -196,7 +196,7 @@ verificaVariavel(numero);
 
 let resultado = ((10 + 5) * 3) / 20;
 console.log(resultado);
-*/
+
 //Questão 19
 
 function verificaNumero(numero) {
@@ -215,3 +215,15 @@ let numero3 = 7;
 verificaNumero(numero1);
 verificaNumero(numero2);
 verificaNumero(numero3);
+*/
+//Questão 20
+
+function verificaBissexto(ano) {
+  if ((ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0) {
+    console.log(`O ano ${ano} é bissexto`);
+  } else {
+    console.log(`O ano ${ano} não é bissexto`);
+  }
+}
+
+verificaBissexto(1600);
