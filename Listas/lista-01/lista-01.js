@@ -191,8 +191,27 @@ let numero = 10;
 
 verificaVariavel(verificaVariavel);
 verificaVariavel(numero);
-*/
+
 //Questão 18
 
 let resultado = ((10 + 5) * 3) / 20;
 console.log(resultado);
+*/
+//Questão 19
+
+function verificaNumero(numero) {
+  if (numero > 0 && numero % 2 !== 1) {
+    console.log("O número é positivo e ímpar.");
+    return true;
+  }
+  console.log("O número não é positivo ou não é ímpar.");
+  return false;
+}
+
+let numero1 = 10;
+let numero2 = -4;
+let numero3 = 7;
+
+verificaNumero(numero1);
+verificaNumero(numero2);
+verificaNumero(numero3);
