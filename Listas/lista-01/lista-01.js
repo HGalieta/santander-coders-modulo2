@@ -215,7 +215,7 @@ let numero3 = 7;
 verificaNumero(numero1);
 verificaNumero(numero2);
 verificaNumero(numero3);
-*/
+
 //Questão 20
 
 function verificaBissexto(ano) {
@@ -227,3 +227,21 @@ function verificaBissexto(ano) {
 }
 
 verificaBissexto(1600);
+*/
+//Questão 21
+
+function verificaAcesso(pessoa) {
+  if (pessoa.idade >= 18 && pessoa.entrada === "liberada") {
+    console.log(`${pessoa.nome} pode entrar!`);
+  } else {
+    console.log(`${pessoa.nome} está banido(a).`);
+  }
+}
+
+let pessoa1 = {
+  nome: "João",
+  idade: 22,
+  entrada: "negada",
+};
+
+verificaAcesso(pessoa1);
