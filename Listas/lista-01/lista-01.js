@@ -176,7 +176,7 @@ let nula = null;
 let indefinida = undefined;
 
 console.log(nula === indefinida);
-*/
+
 //Questão 16
 
 function verificaVariavel(variavel) {
@@ -191,3 +191,8 @@ let numero = 10;
 
 verificaVariavel(verificaVariavel);
 verificaVariavel(numero);
+*/
+//Questão 18
+
+let resultado = ((10 + 5) * 3) / 20;
+console.log(resultado);
