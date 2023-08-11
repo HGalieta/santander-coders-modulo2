@@ -156,9 +156,14 @@ let multiplicacao = string5 * numero2;
 console.log(multiplicacao, typeof multiplicacao);
 // ao multiplicar uma string por um número, por se tratar de uma operação exclusivamente matemática, o JS faz a conversão da string para número
 
-*/
 //Questão 12
 
 let numero = Number("123");
 
 console.log(numero);
+*/
+//Questão 13
+
+let soma = 12 + "numero";
+console.log(soma, typeof soma);
+//o operador de soma é também utilizado como operador de concatenação e, neste caso, ocorre a conversão do número para string.
